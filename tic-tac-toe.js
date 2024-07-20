@@ -133,7 +133,7 @@ const gameStatus = document.querySelector("p.js-game-status");
 const difficultySelection = document.querySelector("select.js-difficult-selector");
 
 function playComputerMove() {
-    gameStatus.innerHTML = "Computer's move";
+    gameStatus.innerHTML = "AI's move";
 
     setTimeout(() => {
         const moveIndex =
