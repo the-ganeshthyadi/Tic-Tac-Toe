@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tic-tac-toe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/tic-tac-toe-icon.png">
+</head>
+
+<body>
+    <div class="title-container">
+        <h1 class="title">THE TIC-TAC-TOE GAME</h1>
+
+    </div>
+
+    <div class="options">
+        <div class="selection-wrapper">
+            <select class="difficulty-selection js-difficult-selector">
+                <option>Select Difficulty</option>
+                <option>Easy</option>
+                <option>Medium</option>
+                <option>Hard</option>
+            </select>
+        </div>
+        <div class="button-wrapper">
+            <button class="start-game-button js-start-game-button">Start Game</button>
+        </div>
+    </div>
+
+    <div class="board-container-wrapper">
+        <div class="board-container js-board-container">
+            <div><img class="grey-square" alt="Grey Square" src="images/grey-square.png"></div>
+            <div><img class="grey-square" alt="Grey Square" src="images/grey-square.png"></div>
+            <div><img class="grey-square" alt="Grey Square" src="images/grey-square.png"></div>
+            <div><img class="grey-square" alt="Grey Square" src="images/grey-square.png"></div>
+            <div><img class="grey-square" alt="Grey Square" src="images/grey-square.png"></div>
+            <div><img class="grey-square" alt="Grey Square" src="images/grey-square.png"></div>
+            <div><img class="grey-square" alt="Grey Square" src="images/grey-square.png"></div>
+            <div><img class="grey-square" alt="Grey Square" src="images/grey-square.png"></div>
+            <div><img class="grey-square" alt="Grey Square" src="images/grey-square.png"></div>
+        </div>
+    </div>
+    <p id="info" class="game-status js-game-status"></p>
+    <script src="tic-tac-toe.js"></script>
+</body>
+
+</html>
